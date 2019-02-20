@@ -1,9 +1,9 @@
-#   Aho-Corasick Algorithm implementation in Python3
+git fetch origin master#   Aho-Corasick Algorithm implementation in Python3
 #   Coded by George Prince
 
 
 # node of the trie
-class TrieNode:
+class TrieNode:git fetch origin master
 
     def __init__(self):
 
@@ -98,7 +98,7 @@ def find_substrings(words, parts):
 
 
 if __name__ == '__main__':
-    texts = ["Apple", "Angle"]
+    texts = ["Apple", "Angle", "Apparant"]
     patterns = ["Apple", "pple", "ple", "le", "e", "App", "Appl", "Ap", "A", "p", "l", "An", "ng"]
     find_substrings(texts, patterns)
 
