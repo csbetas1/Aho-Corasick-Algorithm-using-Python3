@@ -1,9 +1,9 @@
-git fetch origin master#   Aho-Corasick Algorithm implementation in Python3
+#   Aho-Corasick Algorithm implementation in Python3
 #   Coded by George Prince
 
 
 # node of the trie
-class TrieNode:git fetch origin master
+class TrieNode:
 
     def __init__(self):
 
